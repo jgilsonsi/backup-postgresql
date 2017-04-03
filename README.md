@@ -1,7 +1,14 @@
+<b>PostgreSQL Backup and Restore</b>
 
+<p>
+Este projeto permite realizar backup e restore de um banco de dados PostgreSQL.
 
+Use o comando: java -jar backup-postgresql-1.0.jar databaseName databasePassword type
 
-
+type = backup or restore
+</p>
+<br>
+<p>
 Esquema para criação de um banco de teste:
 
 -- Create database ----------------------------------------------------------------
@@ -25,3 +32,4 @@ INSERT INTO cars (_name, color, _value) VALUES ('Toyota Corolla XEI', 'Red', 650
 -- Show data -----------------------------------------------------------------------
 
 SELECT * FROM cars;
+</p>
